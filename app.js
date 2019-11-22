@@ -51,7 +51,7 @@ app.get('/weather', (req, res) => {
       if (err) {
         return res.send({ err })
       }
-      res.send({ forecast: data, location: location })
+      res.sSend({ forecast: data, location: location })
     })
   })
 })
